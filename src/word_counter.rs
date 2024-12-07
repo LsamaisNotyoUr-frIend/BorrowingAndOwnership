@@ -1,6 +1,6 @@
 use std::io;
 
-fn count_words() {
+pub(crate) fn count_words() {
     println!("Write a simple sentence with multiple words");
     let mut input = String::new();
     io::stdin()
